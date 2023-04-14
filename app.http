@@ -1,0 +1,13 @@
+POST http://localhost:3092/register
+Content-Type: application/json
+
+{
+    "name":"nam",
+    "email":"emal"
+}
+
+####
+GET http://localhost:3092/getdata
+
+###
+DELETE http://localhost:3092/delete
